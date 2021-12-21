@@ -14,18 +14,21 @@ a {
 a:hover {
 	text-decoration: underline;
 }
+ul{
+    padding: 0;
+}
 aside {
 	display: flex;
 	flex-direction: column;
 	width: auto;
-	max-width: 30%;
+	width: 40%;
 	background-color: #b3e5fc;
 }
 main {
 	padding: 0 5%;
 }
 .bloc-inner {
-	padding: 20px 0 20px 0;
+	padding: 30px;
 }
 #container-bloc-aside {
 	padding: 40px;
@@ -41,16 +44,11 @@ main {
 	flex-direction: column;
 	width: auto;
 }
-.px {
-	padding: 20px 40px 20px 40px;
-}
+
 img {
 	border-radius: 50%;
 	width: 200px;
-	height: 200px;
-	border: 4px gray solid;
-	height: auto;
-	object-fit: cover;
+	border: 4px #82b3c9 solid;
     padding: 2px;
 }
 .container-aside-title {
@@ -61,7 +59,7 @@ img {
 }
 .aside-title {
     padding: 5px 0;
-	color: white;
+	color: #b3e5fc;
 	margin: 0;
 }
 .li-profil-contacts {
@@ -135,6 +133,7 @@ h1 {
 
 .fa-caret-right {
 	padding-right: 10px;
+    color: #b3e5fc;
 }
 .fa-external-link-alt {
 	padding-left: 10px;
