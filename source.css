@@ -1,28 +1,96 @@
-#bloc_page {
+body {
+	margin: 0;
+}
+#bloc-page {
 	width: 100%;
 	display: flex;
+	font-family: Helvetica, sans-serif;
 }
-
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
 aside {
 	display: flex;
 	flex-direction: column;
 	width: auto;
 	border: 2px red solid;
+	max-width: 35%;
+	background-color: rgb(158, 75, 75);
 }
-
-#bloc_aside {
+main {
+	padding: 0 5%
 }
-
-#profil_picture_section {
+.bloc-inner {
+	padding: 20px 0 20px 0;
 }
-
+#container-bloc-aside {
+	padding: 40px;
+}
+#profil-picture-section {
+	margin: 50px 0 50px 0;
+	width: auto;
+	display: flex;
+	justify-content: center;
+}
 main {
 	display: flex;
 	flex-direction: column;
-    width: auto;
+	width: auto;
 	border: 2px green solid;
 }
-
-img{
-    
+.px {
+	padding: 0 40px 0 40px;
+}
+img {
+	padding: 1px;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	border: 4px gray solid;
+	height: auto;
+	object-fit: cover;
+}
+.container-aside-title {
+	display: flex;
+	justify-content: center;
+	background-color: #424242;
+	padding: 10px 0 10px 0;
+}
+.aside-title {
+	color: white;
+	margin: 0;
+}
+.li-profil-contacts {
+	font-weight: bold;
+	margin-bottom: 15px;
+	list-style: none;
+	margin-bottom: 20px;
+}
+.subtext,
+.subtext > a {
+	color: gray;
+}
+.bloc-inner > p {
+	text-align: justify;
+}
+.container-hoobies-icons {
+	padding: 20px 40px 20px 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.container-icon {
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	border: 4px #424242 solid;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container-icon > i {
+	color: #424242;
+	font-size: 2em;
 }
