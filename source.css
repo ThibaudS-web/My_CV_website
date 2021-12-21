@@ -130,10 +130,11 @@ h1 {
 .skill {
 	display: inline-block;
 }
-
+.fa-caret-right, .fa-external-link-alt {
+    color: #b3e5fc;
+}
 .fa-caret-right {
 	padding-right: 10px;
-    color: #b3e5fc;
 }
 .fa-external-link-alt {
 	padding-left: 10px;
