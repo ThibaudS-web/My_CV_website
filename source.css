@@ -5,9 +5,11 @@ body {
 	width: 100%;
 	display: flex;
 	font-family: Helvetica, sans-serif;
+    color: #37474f;
 }
 a {
 	text-decoration: none;
+	color: black;
 }
 a:hover {
 	text-decoration: underline;
@@ -16,12 +18,11 @@ aside {
 	display: flex;
 	flex-direction: column;
 	width: auto;
-	border: 2px red solid;
-	max-width: 35%;
-	background-color: rgb(158, 75, 75);
+	max-width: 30%;
+	background-color: #b3e5fc;
 }
 main {
-	padding: 0 5%
+	padding: 0 5%;
 }
 .bloc-inner {
 	padding: 20px 0 20px 0;
@@ -39,19 +40,18 @@ main {
 	display: flex;
 	flex-direction: column;
 	width: auto;
-	border: 2px green solid;
 }
 .px {
-	padding: 0 40px 0 40px;
+	padding: 20px 40px 20px 40px;
 }
 img {
-	padding: 1px;
 	border-radius: 50%;
 	width: 200px;
 	height: 200px;
 	border: 4px gray solid;
 	height: auto;
 	object-fit: cover;
+    padding: 2px;
 }
 .container-aside-title {
 	display: flex;
@@ -60,6 +60,7 @@ img {
 	padding: 10px 0 10px 0;
 }
 .aside-title {
+    padding: 5px 0;
 	color: white;
 	margin: 0;
 }
@@ -71,15 +72,15 @@ img {
 }
 .subtext,
 .subtext > a {
-	color: gray;
+	color: #62727b;
 }
 .bloc-inner > p {
 	text-align: justify;
 }
 .container-hoobies-icons {
-	padding: 20px 40px 20px 40px;
-    display: flex;
-    justify-content: space-around;
+	padding: 40px;
+	display: flex;
+	justify-content: space-around;
 }
 .container-icon {
 	width: 75px;
@@ -93,4 +94,84 @@ img {
 .container-icon > i {
 	color: #424242;
 	font-size: 2em;
+}
+h1 {
+	margin-top: 70px;
+}
+.first-name {
+	color: #b3e5fc;
+}
+.job {
+	font-size: 1.5em;
+	position: relative;
+	margin-bottom: 100px;
+}
+.job::after {
+	content: "";
+	height: 2px;
+	width: 70px;
+	background-color: #b3e5fc;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.bloc-main {
+	display: flex;
+	flex-direction: column;
+	padding-top: 40px;
+}
+.bloc-main-title {
+	display: flex;
+	align-items: center;
+}
+.bloc-main-title > i {
+	padding-right: 15px;
+	font-size: 1.9em;
+    color: #b3e5fc;
+}
+.skill {
+	display: inline-block;
+}
+
+.fa-caret-right {
+	padding-right: 10px;
+}
+.fa-external-link-alt {
+	padding-left: 10px;
+}
+.multi-repo-project {
+	display: inline-block;
+	margin-left: 40px;
+	margin-top: 20px;
+}
+.separate-line {
+	margin-bottom: 10px;
+	width: 100%;
+	height: 2px;
+	background-color: #9e4b4b;
+}
+.box-experience {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+.caret-date {
+	display: flex;
+	flex: 1;
+}
+.caret-date > i {
+	padding-right: 10px;
+}
+.description {
+	display: flex;
+	flex-direction: column;
+	flex: 4;
+	text-align: justify;
+}
+h4 {
+	margin-top: 0;
+}
+.last-section {
+	padding-top: 40px;
+	padding-bottom: 20px;
 }
