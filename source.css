@@ -1,0 +1,28 @@
+#bloc_page {
+	width: 100%;
+	display: flex;
+}
+
+aside {
+	display: flex;
+	flex-direction: column;
+	width: auto;
+	border: 2px red solid;
+}
+
+#bloc_aside {
+}
+
+#profil_picture_section {
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+    width: auto;
+	border: 2px green solid;
+}
+
+img{
+    
+}
